@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'package:week_two_app/homepage.dart';
-import 'package:week_two_app/second_page.dart';
+import 'package:week_two_app/profile_page.dart';
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SecondPage(),
+      home: ProfilePage(),
     );
   }
 }
